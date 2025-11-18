@@ -1,16 +1,74 @@
-# React + Vite
+# RentaCar - Premium Car Rental Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, full-featured car rental application built with React, Redux, and Tailwind CSS. Browse, filter, book, and manage car rentals with an intuitive user interface and seamless experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User Authentication**
+  - Secure login and registration with JWT tokens
+  - Token refresh mechanism for session management
+  - Protected routes for authenticated users
 
-## React Compiler
+- **Car Browsing & Search**
+  - Advanced filtering by size, category, price range, and features
+  - Real-time search with debounce optimization
+  - Detailed car information with images and specifications
+  - Feature badges with color coding
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Booking System**
+  - Intuitive date range picker for rental periods
+  - Real-time price calculation
+  - Booking confirmation with rental details
+  - View rental history and booking status
 
-## Expanding the ESLint configuration
+- **User Profile**
+  - View personal information and contact details
+  - Track active and past rentals
+  - Beautiful card-based rental history
+  - User statistics dashboard
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Responsive Design**
+  - Mobile-first approach
+  - Sidebar toggle for small screens
+  - Adaptive layouts for all device sizes
+  - Touch-friendly navigation
+
+- **Animations & Interactions**
+  - Smooth page transitions with Framer Motion
+  - Hover effects and interactive elements
+  - Scroll reveal animations
+  - Loading states and feedback
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React 18** - UI library
+- **Redux Toolkit** - State management
+- **React Router v6** - Client-side routing
+- **Tailwind CSS** - Utility-first styling
+- **Framer Motion** - Animation library
+- **Axios** - HTTP client
+- **JWT Decode** - Token decoding
+- **Lucide React** - Icon library
+- **Vite** - Build tool
+
+### Backend Integration
+- RESTful API with Django/DRF
+- JWT authentication
+- Token-based authorization
+- Protected API endpoints
+
+## 📋 Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn package manager
+- Backend API running (see Backend Setup)
+
+## 🚀 Getting Started
+
+### Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/RentaCar.git
+cd RentaCar
